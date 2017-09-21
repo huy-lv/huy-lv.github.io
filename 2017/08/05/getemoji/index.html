@@ -37,6 +37,15 @@
 <link rel="stylesheet" href="/css/typo.css" />
 <!-- 文章页 -->
 <body class="is-loading">
+<div id="fb-root"></div>
+<script>(function (d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s);
+        js.id = id;
+        js.src = "//connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v2.10&appId=116744252337283";
+        fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));</script>
     <!-- Wrapper 外包 s-->
     <div id="wrapper" class="fade-in">
         <!-- Intro 头部显示 s -->
@@ -139,6 +148,7 @@
     }
 </style>
 
+            <div class="fb-comments" data-width="100%" data-numposts="5"></div>
 
         </div>
         <!-- Copyright 版权 start -->
@@ -152,6 +162,8 @@
 			
         </div>
     </div>
+
+
 </body>
 
 
